@@ -108,6 +108,7 @@ class _LandingScreenState extends State<LandingScreen> {
                             ),
                           ),
                           onPressed: () {
+                          
                             Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpScreen()));
                           },
                           child: Text("Creer un compte"),
